@@ -12,8 +12,8 @@ h2 {
   font-size: 20px;
 }
 
-.img {
-  size: 400px;
+img {
+  max-width: 3000px;
 }
 
 .column {
@@ -21,10 +21,15 @@ h2 {
   width: 600px;
   height: 1000px;
   color: gold;
-  background-color: rgba(8, 81, 3, 0.602);
+  background-color: darkgreen;
   padding: 10px;
   border: 3px solid black;
   margin: 10px;
+}
+
+.column img{
+  display: block;
+  max-width: 100%;
 }
 
 .column p {
